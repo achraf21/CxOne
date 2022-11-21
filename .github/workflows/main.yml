@@ -13,7 +13,7 @@ jobs:
         uses: checkmarx/ast-github-action@main
         with:
           project_name: Github_Actions
-          cx_tenant: Devoteam
+          cx_tenant: devoteam_fr_nfr
           base_uri: https://eu.ast.checkmarx.net/
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
